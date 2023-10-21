@@ -1,1 +1,25 @@
 POST http://localhost:3333/notes
+Content-Type: application/json
+
+{
+    "title":"Tarefa 01",
+    "content":"Essa tarefa é uma requisição POST utilizando o REST Client"
+}
+
+###
+
+GET http://localhost:3333/notes
+
+###
+
+PUT http://localhost:3333/notes/
+Content-Type: application/json
+
+{
+    "title":"Tarefa 01 - Editada",
+    "content":"Utilizando o método PUT para mudar os dados"
+}
+
+###
+
+DELETE http://localhost:3333/notes/
